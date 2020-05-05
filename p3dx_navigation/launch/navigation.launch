@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="map_file" value="$(find p3dx_navigation)/maps/map1.yaml"></arg>
+    <node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)"></node>
+    <include file="$(find p3dx_navigation)/launch/amcl.launch"></include>
+    <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+        <rosparam file="$(find p3dx_navigation)/config/costmap_common_params.yaml" command="load" ns="global_costmap"></rosparam>
+        <rosparam file="$(find p3dx_navigation)/config/costmap_common_params.yaml" command="load" ns="local_costmap"></rosparam>
+        <rosparam file="$(find p3dx_navigation)/config/global_costmap_params.yaml" command="load"></rosparam>
+        <rosparam file="$(find p3dx_navigation)/config/local_costmap_params.yaml" command="load"></rosparam>
+        <rosparam file="$(find p3dx_navigation)/config/base_local_planner_params.yaml" command="load"></rosparam>
+    </node>
+    <node name="rviz_navigation" pkg="rviz" type="rviz"></node>
+</launch>
