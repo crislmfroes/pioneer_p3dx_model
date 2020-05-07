@@ -16,6 +16,7 @@ matrix:
 env:
   global:
     - ROS_CI_DESKTOP: "`lsb_release -cs`"
+    - CI_SOURCE_PATH: $(pwd)
     - GH_REPO_NAME: pioneer_p3dx_model
     - PACKAGES:
         - p3dx_description
