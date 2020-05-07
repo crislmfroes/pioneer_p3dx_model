@@ -66,6 +66,9 @@ script:
   - catkin build
 
 after_success:
-  - cd $TRAVIS_BUILD_DIR
+  - source /opt/ros/$ROS_DISTRO/setup.bash
+  - cd ~/catkin_ws
+  - source devel/setup.bash
+  - cd src/$CI_SOURCE_PATH
   - chmod +x generateDocumentationAndDeploy.sh
   - ./generateDocumentationAndDeploy.sh
