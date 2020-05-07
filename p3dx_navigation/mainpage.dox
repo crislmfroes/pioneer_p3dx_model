@@ -1,0 +1,5 @@
+/**
+ \mainpage
+ \htmlinclude manifest.html
+ \b This package contains launch files and configuration files for running the navigation stack on a Pioneer P3-DX differential mobile base.
+**/

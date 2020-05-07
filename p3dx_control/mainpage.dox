@@ -1,0 +1,5 @@
+/**
+ \mainpage
+ \htmlinclude manifest.html
+ \b This package contains joint configurations and launchfiles for spawning the joint states of a Pioneer P3-DX mobile base. It also contains a simple utility node for keyboard teleoperation.
+**/

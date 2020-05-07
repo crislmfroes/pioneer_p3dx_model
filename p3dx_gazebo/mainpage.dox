@@ -1,0 +1,5 @@
+/**
+ \mainpage
+ \htmlinclude manifest.html
+ \b This package contains launch files and Gazebo worlds for simulating a Pioneer P3-DX differential mobile base. At the time the only worlds working with the provided launch files are p3dx.word and map1_wo_robot.world .
+**/

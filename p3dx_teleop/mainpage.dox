@@ -1,0 +1,5 @@
+/**
+ \mainpage
+ \htmlinclude manifest.html
+ \b This package contains launch files for teleoperation of the Pioneer P3-DX mobile base. At the moment only keyboard teleoperation is provided, but it should be possible to implement other methods.
+**/

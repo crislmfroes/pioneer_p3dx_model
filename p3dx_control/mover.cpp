@@ -1,3 +1,7 @@
+/**
+ \brief The mover.cpp node provides basic funcionality for keyboard teleoperation .
+**/
+
 #include "ros/ros.h"
 #include "std_msgs/String.h"
 #include "geometry_msgs/Twist.h"

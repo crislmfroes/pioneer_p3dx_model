@@ -1,0 +1,5 @@
+/**
+ \mainpage
+ \htmlinclude manifest.html
+ \b This package contains launch files for running simultaneous localization and mapping (SLAM) on a Pioneer P3-DX robot. At the moment only gmapping is supported, but it should be trivial to add support to other slam solutions.
+**/
