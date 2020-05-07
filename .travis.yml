@@ -69,6 +69,6 @@ after_success:
   - source /opt/ros/$ROS_DISTRO/setup.bash
   - cd ~/catkin_ws
   - source devel/setup.bash
-  - cd src/$CI_SOURCE_PATH
+  - cd src/$GH_REPO_NAME
   - chmod +x generateDocumentationAndDeploy.sh
   - ./generateDocumentationAndDeploy.sh
