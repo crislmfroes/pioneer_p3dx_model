@@ -4,10 +4,8 @@ brief: ''
 bugtracker: ''
 depends:
 - catkin
-- urdf
-- rospy
-- roscpp
-description: A Pioneer 3DX description for Gazebo. First working version
+- controller_manager
+description: The p3dx_control package. This is in experimental mode.
 license: GPLv3
 maintainers: Rafael Berkvens <rafael.berkvens@uantwerpen.be>
 msgs: []
