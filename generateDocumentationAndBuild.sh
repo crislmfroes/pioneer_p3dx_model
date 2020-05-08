@@ -12,7 +12,7 @@ git config user.name "Travis CI GIR"
 git config user.email "travis@travis-ci.org"
 rm -rf *
 echo "" > .nojekyll
-for package in ${PACKAGES[@]}
+for package in [ls -d ../../p3dx_*]
 do
     echo "Generating rosdoc_lite code documentation for package $package ..."
     rosdoc_lite ../../$package -o $package 2>&1 | tee $package.log
