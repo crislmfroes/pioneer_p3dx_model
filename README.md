@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/crislmfroes/pioneer_p3dx_model.svg?branch=master)](https://travis-ci.org/crislmfroes/pioneer_p3dx_model)
+
 # Pioneer P3-DX Model
 
 A ROS/Gazebo Pioneer 3DX model created by Rafael Berkvens (rafael.berkvens@uantwerpen.be) and modified by Mario Serna Hernández. This is a model adapted to the Pioneer P3-DX robot of the Movis Research & Innovation Group.
