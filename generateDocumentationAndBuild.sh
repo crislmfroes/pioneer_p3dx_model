@@ -20,7 +20,6 @@ do
         echo "Uploading $package package documentation to gh-pages branch ..."
         git add --all
         git commit -m "Deploy $package docs to GitHub Pages Travis build: ${TRAVIS_BUILD_NUMBER}" -m "Commit: ${TRAVIS_COMMIT}"
-        git push --force "https://${GH_REPO_TOKEN}@${GH_REPO_REF}" > /dev/null 2>&1
     else
         echo '' >&2
         echo "Warning: No documentation (html) files have been found for package $package !" >&2
@@ -28,3 +27,4 @@ do
         exit 1
     fi
 done
+git push --force "https://${GH_REPO_TOKEN}@${GH_REPO_REF}" > /dev/null 2>&1
