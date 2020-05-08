@@ -1,0 +1,17 @@
+actions: []
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- p3dx_description
+- catkin
+- gazebo_ros
+- p3dx_control
+description: The p3dx_gazebo package. This is a first working version.
+license: GPLv3
+maintainers: Rafael Berkvens <rafael.berkvens@uantwerpen.be>
+msgs: []
+package_type: package
+repo_url: ''
+srvs: []
+url: https://github.com/RafBerkvens/ua_ros_p3dx
