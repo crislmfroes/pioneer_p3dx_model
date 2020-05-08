@@ -1,6 +1,6 @@
-warning: Tag `XML_SCHEMA' at line 1796 of file `/tmp/tmpot3vtS' has become obsolete.
+warning: Tag `XML_SCHEMA' at line 1796 of file `/tmp/tmpSjzezt' has become obsolete.
          To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
-warning: Tag `XML_DTD' at line 1802 of file `/tmp/tmpot3vtS' has become obsolete.
+warning: Tag `XML_DTD' at line 1802 of file `/tmp/tmpSjzezt' has become obsolete.
          To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
 warning: tag INCLUDE_PATH: include path `$INCLUDE_PATH' does not exist
 warning: source $INCLUDE_PATH is not a readable file or directory... skipping.
@@ -9,7 +9,7 @@ Documenting p3dx_control located here: /home/travis/build/crislmfroes/pioneer_p3
 {'doxygen': {'builder': 'doxygen', 'file_patterns': '*.cpp *.hpp *.dox *.md'}}
 {'builder': 'doxygen', 'file_patterns': '*.cpp *.hpp *.dox *.md'}
 Generated the following tagfile string 
-doxygen-ating p3dx_control [doxygen /tmp/tmpot3vtS]
+doxygen-ating p3dx_control [doxygen /tmp/tmpSjzezt]
 []
 []
 []
