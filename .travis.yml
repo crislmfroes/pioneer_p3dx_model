@@ -70,5 +70,5 @@ after_success:
   - cd ~/catkin_ws
   - source devel/setup.bash
   - cd src/$GH_REPO_NAME
-  - chmod +x generateDocumentationAndDeploy.sh
-  - ./generateDocumentationAndDeploy.sh
+  - chmod +x generateDocumentationAndBuild.sh
+  - ./generateDocumentationAndBuild.sh
