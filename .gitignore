@@ -118,3 +118,7 @@ msg_gen/
 # Eclipse #
 ###########
 !.project
+
+#rosdoc#
+########
+code_docs
