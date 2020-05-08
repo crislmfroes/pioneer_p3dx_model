@@ -1,0 +1,15 @@
+actions: []
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- key_teleop
+description: The p3dx_teleop package
+license: TODO
+maintainers: cris <cris@todo.todo>
+msgs: []
+package_type: package
+repo_url: ''
+srvs: []
+url: ''
